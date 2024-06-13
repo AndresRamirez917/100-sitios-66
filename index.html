@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/scss/styles.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="/scss/mobile.css">
     <title>PORTAFOLIO MINIMALISTA  | Welcome</title>
@@ -56,10 +57,13 @@
 
     <section id="disclaimer">
         <div class="container">
-            <div class="disclaimer-content">
+            <div class="disclaimer-content main-width">
                 <h1>I get inspited by people's stories to create new experiences through design.</h1>
                 <img src="/images/arrow.png" alt="">
-                <a href="#portfolio"> VIEW PORTFOLIO</a>
+                <div>
+                    <a href="#portfolio"> VIEW PORTFOLIO</a>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -76,10 +80,10 @@
     </div>
 
     <section id="social">
-        <div class="container main-width">
-            <h3>I want to stay in touch with you!
-                Please follow me on social media to keep in touch.</h3>
-                <div class="social-row flex">
+        <div class="container">
+                <div class="social-row">
+                    <div><h3>I want to stay in touch with you!
+                        Please follow me on social media to keep in touch.</h3></div>
                     <img src="/images/icon-instagram.png" alt="">
                     <img src="/images/icon-twitch.png" alt="">
                     <img src="/images/icon-twitter.png" alt="">
@@ -89,21 +93,21 @@
     </section>
 
     <!-- contact -->
-    <section id="contact main-width">
+    <section id="contact">
         <div class="container">
             <h2>contact us</h2>
             <form action="">
-                <div class="form-group">
+                <div class="form-group flex">
                     <div class="flex-box-1">
                         <label for="">Nombre</label>
-                        <input type="text" class="form-control" placeholder="">
+                        <input type="text" class="form-control" placeholder="">
                     </div>
                     <div class="flex-box-1">
                         <label for="">Email</label>
-                        <input type="text" class="form-control" placeholder="">
+                        <input type="text" class="form-control" placeholder="">
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group flex">
                     <div class="flex-box-1">
                         <label for="">Fecha</label>
                         <input type="date" class="form-control" placeholder="">
@@ -115,7 +119,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder=""></textarea>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder=""></textarea>
                 </div>
                 <button class="btn button-2">submit</button>
             </form>
